@@ -8,6 +8,7 @@ import { PostsComponent } from 'src/app/modules/posts/posts.component';
 import { SharedModule } from 'src/app/shared/shared.module';
 import {MatSidenavModule} from '@angular/material/sidenav';
 
+import { PowerBIEmbedModule } from 'powerbi-client-angular';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import {MatSidenavModule} from '@angular/material/sidenav';
     RouterModule,
     SharedModule,
     MatSidenavModule,
+    PowerBIEmbedModule
   ]
 })
 export class DefaultModule { }
