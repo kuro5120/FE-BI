@@ -15,6 +15,8 @@ import {FlexLayoutModule} from '@angular/flex-layout'
 import {MatMenuModule} from '@angular/material/menu';
 import { RouterModule } from '@angular/router';
 
+import { PowerBIEmbedModule } from 'powerbi-client-angular';
+
 @NgModule({
   declarations: [
     HeaderComponent,

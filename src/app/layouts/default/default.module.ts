@@ -14,14 +14,15 @@ import { PowerBIEmbedModule } from 'powerbi-client-angular';
   declarations: [
     DefaultComponent,
     DashboardComponent,
-    PostsComponent
+    PostsComponent,
   ],
   imports: [
     CommonModule,
     RouterModule,
     SharedModule,
     MatSidenavModule,
-    PowerBIEmbedModule
-  ]
+    PowerBIEmbedModule,
+  ],
+
 })
 export class DefaultModule { }
